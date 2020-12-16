@@ -1,0 +1,50 @@
+name: hello_world
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^2.4.1
+  carousel_slider: ^2.3.1
+  cupertino_icons: ^1.0.1
+  dio: ^3.0.10
+  english_words: ^3.1.5
+  flui: ^0.9.2
+  flutter_spinkit: ^4.1.2+1
+  flutter_svg: ^0.19.2+1
+  fluttertoast: ^7.1.5
+  http: ^0.12.2
+  intl: ^0.16.1
+  pull_to_refresh: ^1.6.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: IconTabbar
+      fonts:
+        - asset: fonts/IconTabbar.ttf
+
+    - family: M_PLUS_Rounded_1c
+      fonts:
+        - asset: fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Bold.ttf
+          weight: 800
+        - asset: fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-ExtraBold.ttf
+          weight: 900
+        - asset: fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Light.ttf
+          weight: 300
+        - asset: fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Medium.ttf
+          weight: 500
+        - asset: fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Regular.ttf
+          weight: 400
+        - asset: fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Thin.ttf
+          weight: 200
+  assets:
+    - Assets/
